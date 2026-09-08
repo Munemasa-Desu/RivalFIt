@@ -1,0 +1,28 @@
+# Supabase CLI project config. Only the pieces we actually customise are
+# uncommented; defaults for everything else.
+project_id = "rivalfit"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+
+[db]
+port = 54322
+major_version = 16
+
+[realtime]
+enabled = true
+
+[auth]
+enabled = true
+site_url = "http://localhost:8081"
+additional_redirect_urls = ["rivalfit://auth"]
+jwt_expiry = 3600
+enable_signup = true
+
+[auth.external.apple]
+enabled = true
+[auth.external.google]
+enabled = true

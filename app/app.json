@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "RivalFit",
+    "slug": "rivalfit",
+    "scheme": "rivalfit",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/app.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.rivalfit.app" },
+    "android": { "package": "com.rivalfit.app", "adaptiveIcon": { "foregroundImage": "./assets/icons/adaptive.png", "backgroundColor": "#0B0F14" } },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": { "typedRoutes": true }
+  }
+}
