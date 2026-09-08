@@ -1,0 +1,21 @@
+# node / expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+*.log
+# env
+.env
+.env.*
+!.env.example
+# native
+ios/build/
+android/build/
+android/.gradle/
+# IDE
+.vscode/
+.idea/
+.DS_Store
+# supabase
+supabase/.branches/
+supabase/.temp/
